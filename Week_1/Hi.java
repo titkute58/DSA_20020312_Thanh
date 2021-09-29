@@ -1,4 +1,3 @@
-package HomeWork.Week_1;
 
 public class Hi {
     public static void main(String[] args) {
