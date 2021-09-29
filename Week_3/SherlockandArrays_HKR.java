@@ -1,4 +1,4 @@
-package HomeWork.Week_3;
+
 import java.util.Scanner;
 public class SherlockandArrays_HKR {
     public static void main(String[] args) {

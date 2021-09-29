@@ -1,8 +1,7 @@
-package HomeWork.Week_3;
 import edu.princeton.cs.algs4.In;
-public class ThreeSum_Brute {
+public class Three_Sum {
     public static void main(String[] args) {
-        In in = new In("D:\\Effing Java\\algs4-data\\8Kints.txt");
+        In in = new In("D:\\Coursera\\algs4-data\\8Kints.txt");
         int[] a = in.readAllInts();
         for(int i = 0;i < a.length-1;i++){
             for(int j = i + 1;j < a.length;j++){
