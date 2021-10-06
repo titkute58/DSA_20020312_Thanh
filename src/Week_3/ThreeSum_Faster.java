@@ -25,3 +25,4 @@ public class ThreeSum_Faster {
         System.out.println(ans);
     }
 }
+// ~N^2
