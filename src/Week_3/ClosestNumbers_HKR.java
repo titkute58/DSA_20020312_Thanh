@@ -23,3 +23,4 @@ public class ClosestNumbers_HKR {
         }
     }
 }
+// ~N*log(N) (~N if array is sorted)
