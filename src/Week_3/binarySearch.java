@@ -26,3 +26,4 @@ public class binarySearch {
         System.out.println(bin_search(a, k));
     }
 }
+// Worst: log(N) Best: Const time
