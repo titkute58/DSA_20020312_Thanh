@@ -28,3 +28,4 @@ public class NewYearChaos_HKR {
         }
     }
 }
+// ~ (t*N*log(N)) (t = test case) 
