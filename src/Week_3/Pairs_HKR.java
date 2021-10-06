@@ -27,3 +27,4 @@ public class Pairs_HKR {
         System.out.println(ans);
     }
 }
+// ~N * log(N) (~N if array is sorted)
