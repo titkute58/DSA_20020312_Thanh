@@ -18,16 +18,14 @@ public class QueueWith2Stacks {
                 if(front.empty()){
                     while(!back.empty()) {
                         front.push(back.pop());
-                        back.pop();
                     }
-                }else{
+                }
                     if(type == 2) {
                         front.pop();
                     }
                     if(type == 3) {
-                        System.out.println(front.pop());
+                        System.out.println(front.peek());
                     }
-                }
             }
         }
     }
