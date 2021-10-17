@@ -15,8 +15,8 @@ public class QueueWith2Stacks {
                 back.push(x);
             }
             else {
-                if(front.empty()){
-                    while(!back.empty()) {
+                if(front.isEmpty()){
+                    while(!back.isEmpty()) {
                         front.push(back.pop());
                     }
                 }
