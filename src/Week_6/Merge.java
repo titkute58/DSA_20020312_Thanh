@@ -75,6 +75,7 @@ public class Merge {
     public static void main(String[] args) {
         In in = new In("D:\\Coursera\\algs4-data\\32Kints.txt"); // tạo luồng đọc từ file
         int[] a = in.readAllInts();  // đọc toàn bộ file vào mảng a
+
         /*
         int[] a = new int[32000];
         for(int i = 0;i < 32000;i++){
@@ -82,13 +83,15 @@ public class Merge {
         }
          */
 
+        //Arrays.sort(a); // For third test
+
         /*
-        Arrays.sort(a); // For third test
         int[] b = new int[32001];
         for(int i = 0;i < a.length;i++){
             b[i] = a[a.length-i-1];
         }
-         */
+        */
+
         //Arrays.fill(a, 1512);
 
         Merge ob = new Merge();
