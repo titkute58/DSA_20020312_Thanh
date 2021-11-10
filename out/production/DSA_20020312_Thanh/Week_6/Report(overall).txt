@@ -1,0 +1,62 @@
+* INSERTION SORT:
+    .file test:
+        1000 numbers : ~ 3.67 ms
+        2000 numbers : ~ 11.67 ms
+        4000 numbers : ~ 18 ms
+    .random:
+        1000 numbers : ~ 4.6 ms
+        2000 numbers : ~ 7 ms
+        4000 numbers : ~ 11.67 ms
+    .Ascending order array:
+        10000 numbers : ~ 0 ms
+        20000 numbers : ~ 0 ms
+        30000 numbers : ~ 0 ms
+    .Descending order array:
+        1000 numbers : ~ 6.3 ms
+        2000 numbers : ~ 10 ms
+        4000 numbers : ~ 15.33 ms
+// stable
+ascending order array is the fastest case
+descending order array is the slowest case
+
+* MERGE SORT:
+    .file test: (1)
+        4000 numbers : ~ 3.2 ms
+        16000 numbers : ~ 3.3 ms
+        32000 numbers : ~ 10 ms
+    .random: (2)
+        4000 numbers : ~ 2.36 ms
+        16000 numbers : ~ 3.56 ms
+        32000 numbers : ~ 12.8 ms
+    .Ascending order array: (3)
+        4000 numbers : ~ 4 ms
+        16000 numbers : ~ 7 ms
+        32000 numbers : ~ 6.4 ms
+    .Descending order array: (4)
+        4000 numbers : ~ 4.57 ms
+        16000 numbers : ~ 6.6 ms
+        32000 numbers : ~ 6.8 ms
+
+// faster than insertion sort in most cases
+there is not a big differences among (1),(2),(3),(4)
+
+*QUICK SORT :
+    .file-test:
+        4000 numbers : ~ 3.2 ms
+        16000 numbers : ~ 3.3 ms
+        32000 numbers : ~ 10 ms
+    .random:
+        4000 numbers : ~ 1.5 ms
+        16000 numbers : ~ 7.7 ms
+        32000 numbers : ~ 10.7 ms
+    .Ascending order array:
+        4000 numbers : ~ 4.85 ms
+        16000 numbers : ~ 4.7 ms
+        32000 numbers : ~ 10.7 ms
+    .Descending order array:
+        4000 numbers : ~ 6 ms
+        16000 numbers : ~ 11 ms
+        32000 numbers : ~ 11.8 ms
+
+// faster than insertion sort in most cases
+there is big differenct between random case and descending order case
