@@ -1,5 +1,4 @@
-package Week9;
-
+package Week_9;
 import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
