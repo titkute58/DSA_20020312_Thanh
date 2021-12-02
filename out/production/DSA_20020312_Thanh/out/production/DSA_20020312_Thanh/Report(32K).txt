@@ -1,0 +1,126 @@
+Khảo sát các hàm sort
+(Chú ý: Đơn vị đo ở ms)
+Merge Sort
+ Data from algs4
+Lần 1: 7
+Lần 2: 6
+Lần 3: 7
+=> Avg ~ 6.6
+Generating random
+Lần 1: 9
+Lần 2: 11
+Lần 3: 7
+Lần 4: 8
+Lần 5: 9
+=> Avg = 8.8
+Sorted array (ASC)
+Lần 1: 4
+Lần 2: 6
+Lần 3: 6
+=> Avg ~ 5.3
+Sorted array (DSC)
+Lần 1: 5
+Lần 2: 6
+Lần 3: 5
+=> Avg ~ 5.3
+Array with same value (n-copies of a[0])
+Lần 1: 6
+Lần 2: 4
+Lần 3: 5
+=> Avg ~ 5
+=> Kết Luận: Merge Sort khá ổn định trong mọi input
+II. Insertion Sort
+ Data from algs4
+Lần 1: 96
+Lần 2: 83
+Lần 3: 84
+=> Avg ~ 87.6
+Generating random
+Lần 1: 90
+Lần 2: 91
+Lần 3: 85
+Lần 4: 85
+Lần 5: 86
+=> Avg = 87.4
+Sorted array (ASC)
+Lần 1: 1
+Lần 2: 2
+Lần 3: 1
+=> Avg ~ 1.3
+Sorted array (DSC)
+Lần 1: 162
+Lần 2: 161
+Lần 3: 180
+=> Avg ~ 167.6
+Array with same value (n-copies of a[0])
+Lần 1: 1
+Lần 2: 1
+Lần 3: 1
+=> Avg = 1
+=> Kết Luận:
+Trường hợp tốt nhất: 3 - 5
+Trường hợp xấu nhất: 4
+Thời gian chạy khá chậm với các trường hợp còn lại
+III. Quicksort (Shuffling)
+ Data from algs4
+Lần 1: 24
+Lần 2: 24
+Lần 3: 30
+=> Avg = 26
+Generating random
+Lần 1: 32
+Lần 2: 24
+Lần 3: 21
+Lần 4: 24
+Lần 5: 23
+=> Avg = 24.8
+Sorted array (ASC)
+Lần 1: 30
+Lần 2: 27
+Lần 3: 34
+=> Avg ~ 30.3
+Sorted array (DSC)
+Lần 1: 30
+Lần 2: 27
+Lần 3: 34
+=> Avg ~ 28.3
+Array with same value (n-copies of a[0])
+Lần 1: 16
+Lần 2: 18
+Lần 3: 17
+=> Avg = 17
+=> Kết Luận:
+Thời gian chạy khá ổn định
+Trường hợp tốt nhất: 5
+Chậm hơn so với Merge Sort
+IV. Quicksort (No Shuffling)
+Data from algs4
+Lần 1: 6
+Lần 2: 5
+Lần 3: 6
+=> Avg ~ 5.6
+Generating random
+Lần 1: 6
+Lần 2: 6
+Lần 3: 5
+Lần 4: 6
+Lần 5: 4
+=> Avg = 5.4
+Sorted array (ASC)
+Lần 1: 190
+Lần 2: 181
+Lần 3: 182
+=> Avg ~ 184.3
+Sorted array (DSC)
+Lần 1: 185
+Lần 2: 224
+Lần 3: 240
+=> Avg ~ 216.3
+Array with same value (n-copies of a[0])
+Lần 1: 16
+Lần 2: 18
+Lần 3: 17
+=> Avg = 17
+
+https://docs.google.com/document/d/1bvMaeSW3secEZHbV2R9vOxY8fOWYkD-Ff_fZ4_8dYYY/edit?usp=sharing 
+link for ggdoc

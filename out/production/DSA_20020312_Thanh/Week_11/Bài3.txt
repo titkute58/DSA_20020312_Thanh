@@ -1,0 +1,37 @@
+Bài 3:
+a. Mảng có 17 phần tử (% 17)
+
+Number  3   13  6   7   23  16  33
+Hash    3   13  6   7   6   16  16
+
+st[] 0 1 2 3 4 5 6 7 8 9 10 12 12 13 14 15 16
+           3     6 7 23           13       16
+
++ Hash(6) = 6 -> st[6] = 6 -> get(6) = value[6]
+                + Hash(33) = 16 (có 16) -> index về 0 -> st[0] = 33 -> get(33) = value[0]
+                + Hash(40) = 6 (có 6) -> tăng index của st lên -> st[7] = 7 -> st[8] = 23 -> st[9] = null
+                -> return null (k tìm thấy 40)
+
+b. Mảng có 17 phần tử (% 17)
+0 
+1
+2
+3 3
+4
+5
+6 6->13
+7
+8
+9
+10
+11
+12
+13 13
+14
+15
+16 16->33
+
++ Hash(6) = 6 -> st[6].key = 6 -> get(6) = st[6].value
+                  + Hash(33) = 16 -> st[16].key = 16 -> st[16].next -> key = 33 -> get(33) = st[16].next.value
+                  + Hash(40) = 6 -> st[6].key = 6 -> st[6].next.key = 13 -> st[6].next.next = null
+                  -> return null (k tìm thấy 40)
