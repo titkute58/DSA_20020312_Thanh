@@ -1,0 +1,21 @@
+Bài 1:
+b) Tìm MST với thuật toán Prim
+Chọn:
+C-G 1
+C-B 2
+G-F 3
+F-E 4
+C-A 6
+F-H 8
+A-D 9
+c) Tìm MST với thuật toán Kruskal
+Chọn lần lượt các cạnh nhỏ nhất mà không tạo chu trình:
+C-G 1
+C-B 2
+G-F 3
+F-E 4
+B-E 5 (bỏ qua vì tạo chu trình)
+C-A 6
+A-B 7 (bỏ qua vì tạo chu trình/C-A 6 < C-B 2 + B-A 7)
+F-H 8
+A-D 9
