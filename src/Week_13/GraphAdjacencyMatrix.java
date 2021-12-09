@@ -1,20 +1,25 @@
 package Week_13;
 
 public class GraphAdjacencyMatrix {
-    int vertex;
-    int matrix[][];
+    private boolean matrix[][];
+    private int vertex;
 
-    public GraphAdjacencyMatrix(int vertex) {
-        this.vertex = vertex;
-        matrix = new int[vertex][vertex];
+    // Initialize the matrix
+    public GraphAdjacencyMatrix(int numVertices) {
+        this.vertex = numVertices;
+        matrix = new boolean[numVertices][numVertices];
     }
 
-    public void addEdge(int source, int destination) {
-        //add edge
-        matrix[source][destination]=1;
+    // Add edges
+    public void addEdge(int i, int j) {
+        matrix[i][j] = true;
+        matrix[j][i] = true;
+    }
 
-        //add bak edge for undirected graph
-        matrix[destination][source] = 1;
+    // Remove edges
+    public void removeEdge(int i, int j) {
+        matrix[i][j] = false;
+        matrix[j][i] = false;
     }
 
     public void printGraph() {
@@ -28,7 +33,7 @@ public class GraphAdjacencyMatrix {
         for (int i = 0; i < vertex; i++) {
             System.out.print("Vertex " + i + " is connected to:");
             for (int j = 0; j <vertex ; j++) {
-                if(matrix[i][j]==1){
+                if(matrix[i][j]){
                     System.out.print(j + " ");
                 }
             }
