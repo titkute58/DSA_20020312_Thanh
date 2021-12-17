@@ -18,6 +18,10 @@ class Edge implements Comparable<Edge>{
         this.to = _to;
         this.cost = _cost;
     }
+    /*
+        Edge v, w;
+        v.from == w.to || v.to == w.from;
+     */
 
     /*
      *function compares two edges based on their cost
